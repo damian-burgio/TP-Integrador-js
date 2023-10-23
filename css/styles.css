@@ -1,0 +1,76 @@
+.degradado {
+  background: black;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.degradado img {
+  opacity: 1;
+  transition: 0.5s opacity;
+}
+
+.degradado .degradado-desc {
+  background-color: rgba(0, 0, 0, 0.6);
+  bottom: 0px;
+  color: white;
+  font-size: 1.2em;
+  left: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  transition: 0.5s padding;
+  text-align: center;
+  width: 100%;
+}
+
+.degradado:hover img {
+  opacity: 0.7;
+}
+
+.centrado {
+  text-align: right;
+  padding: 0.5em;
+}
+
+.textizq {
+  text-align: left;
+  padding: 0.5em;
+}
+
+.TextoDer {
+  position: inherit;
+  left: 40%;
+  font-size: 1.5vw;
+}
+
+.textoAbajo {
+  position: relative;
+  bottom: -35%;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.alineadoIzq {
+  text-align: left;
+  padding: 0em;
+}
+
+.divDoble {
+  /*da color de fondo al div que contiene la imagen de honolulu y el texto */
+  background-color: #3d4447;
+  max-width: auto;
+  min-width: 300;
+}
+
+.botonEnviar {
+  /*redefine el color del botón enviar*/
+  background-color: #95c842 !important;
+  border-color: #95c842 !important;
+}
+
+.pie {
+  background-color: #1c445a;
+}
